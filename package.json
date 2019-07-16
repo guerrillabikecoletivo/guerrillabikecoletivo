@@ -2,7 +2,7 @@
   "name": "tarrafahc",
   "version": "0.0.1",
   "description": "Tarrafa HackerClub's webpage",
-  "homepage": "http://tarrafahc.github.io",
+  "homepage": "http://markkop.github.io/tarrafahcwebpage",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
