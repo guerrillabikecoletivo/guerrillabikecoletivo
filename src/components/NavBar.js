@@ -10,14 +10,14 @@ const NavBar = props => {
   const renderItems = (navItems, props) => (
     navItems.map(({path, text}, index)=> (
                 <li key={index} className={`nav-item ${props.location.pathname === path ? 'active' : ''}`}>
-                  <Link className="nav-link" to={path} style={props.style}> {text} </Link>
+                  <Link className="nav-link" to={path}> {text} </Link>
                 </li>
                 )
     )
   )
   
   return (
-      <nav className="navbar navbar-expand-md navbar-default navbar-dark" style={props.style}>
+      <nav className="navbar navbar-expand-md navbar-default navbar-dark">
           <a className="navbar-brand">
             <img src="https://avatars0.githubusercontent.com/u/4346710?s=200&v=4" width="30" height="30" alt="tarrafa logo"/>
              <Link to='/' style={props.style}>Tarrafa HC</Link>
