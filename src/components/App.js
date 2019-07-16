@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar style={{color: '#fbd905'}} />
+        <NavBar />
         <div className="content">
           <Switch>
             <Route exact path='/' component={Home} />
