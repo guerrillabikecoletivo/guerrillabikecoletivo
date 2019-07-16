@@ -18,10 +18,10 @@ const NavBar = props => {
   
   return (
       <nav className="navbar navbar-expand-md navbar-default navbar-dark">
-          <a className="navbar-brand">
+          <div className="navbar-brand">
             <img src="https://avatars0.githubusercontent.com/u/4346710?s=200&v=4" width="30" height="30" alt="tarrafa logo"/>
-             <Link to='/' style={props.style}>Tarrafa HC</Link>
-          </a>
+             <Link to='/' >Tarrafa HC</Link>
+          </div>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
