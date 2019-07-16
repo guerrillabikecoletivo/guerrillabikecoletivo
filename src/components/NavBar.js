@@ -17,7 +17,7 @@ const NavBar = props => {
   )
   
   return (
-      <nav className="navbar navbar-expand-md navbar-default navbar-dark">
+      <nav className="navbar navbar-expand-md navbar-default ">
           <div className="navbar-brand">
             <img src="https://avatars0.githubusercontent.com/u/4346710?s=200&v=4" width="30" height="30" alt="tarrafa logo"/>
              <Link to='/' >Tarrafa HC</Link>
