@@ -21,7 +21,7 @@ const Home = () => {
       </ul>
 
       <p>
-      Quer usar a bike como transporte mas não tem como comprar uma? {<Link to="/Pedidos">Preencha o formulário e entre na fila de espera para receber uma!</Link>}
+      Quer usar a bike como transporte mas não tem como comprar? {<Link to="/Pedidos">Preencha o formulário e entre na fila de espera para receber uma!</Link>}
       </p>
       <p>
       Tem uma bike parada na garagem? {<Link to="/Doações">Doa ela pra gente destinar a alguém que precisa :)</Link>}

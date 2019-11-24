@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
-import logo from "../images/logocrop.jpg"
+import logo from "../images/logo.png"
 
 const NavBar = props => {
   const navItems = [
@@ -30,8 +30,8 @@ const NavBar = props => {
       <div className="navbar-brand">
         <img
           src={logo}
-          width="30"
-          height="30"
+          width="50"
+          height="50"
           alt="gbc logo"
         />
         <Link to="/">G.B.C.</Link>

@@ -48,3 +48,15 @@ a {
   margin: 15px;
   border-radius: 10px;
 }
+
+.form {
+  height: 3000px;
+}
+
+@media (max-width: 600px) 
+{
+  img {
+    max-width: 100%;
+  }
+}
+

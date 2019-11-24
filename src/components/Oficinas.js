@@ -16,7 +16,7 @@ const Oficinas = () => {
       Fazemos encontros em praças, parques, em geral na rua, para ensinar mecânica de bicicleta pra quem se interessar. Fazemos reparos simples e gratuitos nas bikes e, se tivermos a peça que você precisa no nosso banco de peças, é só pegar!
       </p>
       <p>
-        <strong>Quer que a gente cole em um evento, escola, bairro? Manda uma mensagem!</strong>
+        <strong>Quer que a gente cole em um evento, escola, bairro? Manda uma mensagem </strong>
       </p>
       <div className="fotos">
         <img width="400px" src={foto1} alt= 'oficina comunitária'/>
