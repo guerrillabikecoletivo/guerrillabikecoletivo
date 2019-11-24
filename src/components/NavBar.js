@@ -1,11 +1,14 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import logo from "../images/logocrop.jpg"
 
 const NavBar = props => {
   const navItems = [
     { path: "/", text: "Início" },
     { path: "/about", text: "Sobre nós" },
-    { path: "/calendar", text: "Agenda de Atividades" }
+    { path: "/Doações", text: "Doações" },
+    { path: "/Pedidos", text: "Pedidos" },
+    { path: "/Oficinas", text: "Oficinas Comunitárias" }
   ];
 
   const renderItems = (navItems, props) =>
@@ -26,12 +29,12 @@ const NavBar = props => {
     <nav className="navbar navbar-expand-md navbar-default ">
       <div className="navbar-brand">
         <img
-          src="https://avatars0.githubusercontent.com/u/4346710?s=200&v=4"
+          src={logo}
           width="30"
           height="30"
-          alt="tarrafa logo"
+          alt="gbc logo"
         />
-        <Link to="/">Tarrafa HC</Link>
+        <Link to="/">G.B.C.</Link>
       </div>
       <button
         className="navbar-toggler"

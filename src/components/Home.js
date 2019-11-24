@@ -1,24 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Capa from '../images/grupo.jpg';
 
 const Home = () => {
   return (
     <div>
-      <h2>Bem vindo ao site do Tarrafa!</h2>
+      <h2>GUERRILLA BIKE COLETIVO</h2>
       <p>
-        O Tarrafa possui um porteiro eletrônico, mas precisamos revisar ele pra
-        fazer funcionar novamente :p
+      Coletivo autônomo, criado e tocado entre amigos, com o objetivo de promover e facilitar o uso da bicicleta em Florianópolis. Estamos sempre aceitando doações! :)
       </p>
+        <img src={Capa} alt= 'grupo gbc'/>
+      <hr/>
       <p>
-        Por enquanto você pode nos {<Link to="/about">conhecer</Link>} um pouco
-        mais ou ver o que temos de {<Link to="/calendar">atividades</Link>}!
+        <strong>O que fazemos:</strong>
       </p>
-      <h5>Teste do porteiro:</h5>
-      <img
-        alt="botabiarra"
-        className="img-thumbnail rounded user-picture"
-        src="https://raw.githubusercontent.com/tarrafahc/botaobiarra/master/status.png"
-      />
+      <ul>
+        <li>Oficinas comunitárias itinerantes</li>
+        <li>Recebemos bikes e partes usadas</li>
+        <li>Reparamos e destinamos bicicletas a quem precisa</li>
+      </ul>
+      
+      
+      
     </div>
   );
 };

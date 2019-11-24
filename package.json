@@ -1,8 +1,8 @@
 {
-  "name": "tarrafahc",
+  "name": "guerrillabikecoletivo",
   "version": "0.0.1",
-  "description": "Tarrafa HackerClub's webpage",
-  "homepage": "http://markkop.github.io/tarrafahcwebpage",
+  "description": "Página do Guerrilla Bike Coletivo",
+  "homepage": "",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
