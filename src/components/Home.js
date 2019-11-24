@@ -1,5 +1,6 @@
 import React from "react";
 import Capa from '../images/grupo.jpg';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -18,7 +19,13 @@ const Home = () => {
         <li>Recebemos bikes e partes usadas</li>
         <li>Reparamos e destinamos bicicletas a quem precisa</li>
       </ul>
-      
+
+      <p>
+      Quer usar a bike como transporte mas não tem como comprar uma? {<Link to="/Pedidos">Preencha o formulário e entre na fila de espera para receber uma!</Link>}
+      </p>
+      <p>
+      Tem uma bike parada na garagem? {<Link to="/Doações">Doa ela pra gente destinar a alguém que precisa :)</Link>}
+      </p>
       
       
     </div>

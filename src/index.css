@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 body {
   margin: 0;
@@ -11,6 +12,11 @@ body {
   background-color: #1a1a1a;
   color: #e0e0e0
 }
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 190%;
+}
+
 h2 {
   font-family: 'Anton', sans-serif;
   color: #e0e0e0;
