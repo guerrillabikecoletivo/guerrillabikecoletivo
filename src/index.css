@@ -35,13 +35,12 @@ a {
 }
 
 .nav-item {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .fotos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   
 }
 

@@ -5,10 +5,11 @@ import logo from "../images/logo.png"
 const NavBar = props => {
   const navItems = [
     { path: "/", text: "Início" },
-    { path: "/about", text: "Sobre nós" },
     { path: "/Doações", text: "Doações" },
     { path: "/Pedidos", text: "Pedidos" },
-    { path: "/Oficinas", text: "Oficinas Comunitárias" }
+    { path: "/Oficinas", text: "Oficinas Comunitárias" },
+    { path: "/Banco", text: "Banco de Peças" },
+    { path: "/Ajuda", text: "Como ajudar" },
   ];
 
   const renderItems = (navItems, props) =>
