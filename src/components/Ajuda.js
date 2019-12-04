@@ -8,15 +8,24 @@ const Ajuda = () => {
       Temos uma lista (abaixo) de itens que precisamos para tocar os trabalhos.
       Se você tem alguma dessas ferramentas para doar, entre em contato que vamos buscar!
       Caso queira contribuir financeiramente, temos um ponto de coleta de doações (famosa "caixinha")
-      na Chosen, parceira do coletivo, no bairro Trindade.
+      na <a href="https://www.facebook.com/chosenbikeshop/">Chosen</a> ou na <a href="https://www.facebook.com/garupa.bike/">Garupa</a>, ambas parceiras do coletivo, no bairro Trindade.
       </p>
-      <div>
+      <div className="maps">
       <iframe 
       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14145.02971062429!2d-48.5263176!3d-27.5855475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc18dddb0c002fc5a!2sChosen%20Bike%20Shop%20-%20Oficina%20Especializada%20em%20Manuten%C3%A7%C3%A3o%20de%20Bicicleta!5e0!3m2!1spt-BR!2sbr!4v1575325053736!5m2!1spt-BR!2sbr" 
       title="chosen"
-      width="600" 
-      height="450" 
+      width="350" 
+      height="250"
+      margin="15px" 
       frameborder="0"  
+      allowfullscreen="">
+      </iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.949667677561!2d-48.52368924979814!3d-27.595090028568748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952738542d1babfd%3A0x60fe405dfaa08a2e!2sGarupa%20Bicicletaria%20%26%20Etc.!5e0!3m2!1spt-BR!2sbr!4v1575485959781!5m2!1spt-BR!2sbr" 
+      title="garupa"
+      width="350" 
+      height="250" 
+      margin="15px" 
+      frameborder="0"
       allowfullscreen="">
       </iframe>
       </div>

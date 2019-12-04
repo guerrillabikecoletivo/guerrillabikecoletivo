@@ -44,6 +44,18 @@ a {
   
 }
 
+.maps {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.maps iframe {
+  margin: 15px;
+  border-radius: 10px;
+  
+}
+
 .fotos img {
   margin: 15px;
   border-radius: 10px;
