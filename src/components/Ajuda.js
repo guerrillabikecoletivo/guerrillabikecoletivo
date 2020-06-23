@@ -1,4 +1,6 @@
 import React from "react";
+import capish1 from '../images/capish1.jpg';
+import capish2 from '../images/capish2.jpg';
 
 const Ajuda = () => {
   return (
@@ -7,7 +9,23 @@ const Ajuda = () => {
       <p> 
       Temos uma lista (abaixo) de itens que precisamos para tocar os trabalhos.
       Se você tem alguma dessas ferramentas para doar, entre em contato que vamos buscar!
-      Caso queira contribuir financeiramente, temos um ponto de coleta de doações (famosa "caixinha")
+      Caso queira contribuir financeiramente, temos algumas opções: 
+      </p>
+      <hr/>
+      <p>
+      1) Compre um cap da edição especial feita em parceira com o pessoal da Capish! Na compra de 
+      um cap do Guerrilla, parte do dinheiro é revertido para o nosso caixinha e usado na compra 
+      de equipamentos e produtos que precisamos.
+      </p>
+      <a href="https://produto.mercadolivre.com.br/MLB-1411384473-bone-de-ciclismo-cap-guerrilla-bike-coletivo-capish-caveira-_JM?quantity=1">[Link para comprar]</a>
+      
+      <div className="fotos">
+        <img justify-content="center" width="400px" src={capish1} alt= 'cap especial G.B.C. da marca capish'/>
+        <img justify-content="center" width="400px" src={capish2} alt= 'cap especial G.B.C. da marca capish'/>
+      </div>
+      <hr/>
+      <p>
+      2) Temos também pontos de coleta para doações (famosa "caixinha")
       na <a href="https://www.facebook.com/chosenbikeshop/">Chosen</a> ou na <a href="https://www.facebook.com/garupa.bike/">Garupa</a>, ambas parceiras do coletivo, no bairro Trindade.
       </p>
       <div className="maps">
