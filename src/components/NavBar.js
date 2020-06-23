@@ -5,7 +5,7 @@ import logo from "../images/logo.png"
 const NavBar = props => {
   const navItems = [
     { path: "/", text: "Início" },
-    { path: "/Doações", text: "Doações" },
+    { path: "/Doacoes", text: "Doações" },
     { path: "/Pedidos", text: "Pedidos" },
     { path: "/Oficinas", text: "Oficinas Comunitárias" },
     { path: "/Banco", text: "Banco de Peças" },

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Home from "./Home";
-import Doações from "./Doações";
+import Doacoes from "./Doacoes";
 import Pedidos from "./Pedidos";
 import Oficinas from "./Oficinas";
 import NavBar from "./NavBar";
@@ -16,7 +16,7 @@ class App extends Component {
         <div className="content">
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/Doações" component={Doações} />
+            <Route path="/Doacoes" component={Doacoes} />
             <Route path="/Pedidos" component={Pedidos} />
             <Route path="/Oficinas" component={Oficinas} />
             <Route path="/Banco" component={Banco} />

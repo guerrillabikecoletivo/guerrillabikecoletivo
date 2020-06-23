@@ -1,7 +1,7 @@
 import React from "react";
 import oficina from '../images/oficina.jpg';
 
-const Doações = () => {
+const Doacoes = () => {
   return (
     <div>
       <h1>Doações</h1>
@@ -14,4 +14,4 @@ const Doações = () => {
   );
 };
 
-export default Doações;
+export default Doacoes;
