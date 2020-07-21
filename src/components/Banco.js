@@ -2,7 +2,7 @@ import React from "react";
 
 const Banco = () => {
   return (
-    <div className="form">
+    <div>
       <h1>Banco de Peças</h1> 
       <p>
         Organizamos o que recebemos de doação em um banco de peças, 
