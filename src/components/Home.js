@@ -16,7 +16,7 @@ const Home = () => {
       </p>
       <ul>
         <li>Oficinas comunitárias itinerantes</li>
-        <li>Recebemos bikes e partes usadas</li>
+        <li>Recebemos bikes e peças usadas</li>
         <li>Reparamos e destinamos bicicletas a quem precisa</li>
       </ul>
 
@@ -26,7 +26,9 @@ const Home = () => {
       <p>
       Tem uma bike parada na garagem? {<Link to="/Doações">Doa ela pra gente destinar a alguém que precisa :)</Link>}
       </p>
-      
+      <p>
+      Conheça também o nosso {<Link to="/Banco">Banco de Peças!</Link>}
+      </p>
       
     </div>
   );

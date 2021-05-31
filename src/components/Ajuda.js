@@ -13,7 +13,10 @@ const Ajuda = () => {
       </p>
       <hr/>
       <p>
-      1) Compre um cap da edição especial feita em parceira com o pessoal da Capish! Na compra de 
+      1) Faça uma contribuição voluntária, com qualquer valor, pelo nosso PIX: [em breve]
+      </p>
+      <p>
+      2) Compre um cap da edição especial feita em parceira com o pessoal da Capish! Na compra de 
       um cap do Guerrilla, parte do dinheiro é revertido para o nosso caixinha e usado na compra 
       de equipamentos e produtos que precisamos.
       </p>
@@ -25,7 +28,7 @@ const Ajuda = () => {
       </div>
       <hr/>
       <p>
-      2) Temos também pontos de coleta para doações (famosa "caixinha")
+      3) Temos também pontos de coleta para doações (famosa "caixinha")
       na <a href="https://www.facebook.com/chosenbikeshop/">Chosen</a> ou na <a href="https://www.facebook.com/garupa.bike/">Garupa</a>, ambas parceiras do coletivo, no bairro Trindade.
       </p>
       <div className="maps">
