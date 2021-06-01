@@ -13,7 +13,7 @@ const Ajuda = () => {
       </p>
       <hr/>
       <p>
-      1) Faça uma contribuição voluntária, com qualquer valor, pelo nosso PIX: [em breve]
+      1) Faça uma contribuição voluntária, com qualquer valor, pelo nosso PIX. Chave PIX: guerillabikecoletivo@gmail.com
       </p>
       <p>
       2) Compre um cap da edição especial feita em parceira com o pessoal da Capish! Na compra de 

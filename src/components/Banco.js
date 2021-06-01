@@ -1,4 +1,5 @@
 import React from "react";
+import banco1 from '../images/banco1.jpg';
 
 const Banco = () => {
   return (
@@ -14,6 +15,7 @@ const Banco = () => {
         <br/>
         Postamos imagens das peças nos stories do Instagram - elas ficam nos destaques!
         </p>
+        <img justify-content="center" width="800px" src={banco1} alt= 'oficina comunitária - banco de peças'/>
     </div>
   );
 };
